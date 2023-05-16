@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T11:21:58 IST" name="Default suite" finished-at="2023-05-12T11:21:58 IST" duration-ms="133">
+    <groups>
+      <group name="Exclude Groups">
+        <method signature="IncludeExcludeDemo.test_case3()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" name="test_case3" class="IncludeExcludeGroups.IncludeExcludeDemo"/>
+        <method signature="IncludeExcludeDemo.test_case4()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" name="test_case4" class="IncludeExcludeGroups.IncludeExcludeDemo"/>
+      </group> <!-- Exclude Groups -->
+      <group name="Include Group">
+        <method signature="IncludeExcludeDemo.test_case1()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" name="test_case1" class="IncludeExcludeGroups.IncludeExcludeDemo"/>
+        <method signature="IncludeExcludeDemo.test_case2()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" name="test_case2" class="IncludeExcludeGroups.IncludeExcludeDemo"/>
+      </group> <!-- Include Group -->
+    </groups>
+    <test started-at="2023-05-12T11:21:58 IST" name="Default test" finished-at="2023-05-12T11:21:58 IST" duration-ms="133">
+      <class name="IncludeExcludeGroups.IncludeExcludeDemo">
+        <test-method signature="test_case1()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" started-at="2023-05-12T11:21:58 IST" name="test_case1" finished-at="2023-05-12T11:21:58 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case1 -->
+        <test-method signature="test_case2()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" started-at="2023-05-12T11:21:58 IST" name="test_case2" finished-at="2023-05-12T11:21:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case2 -->
+        <test-method signature="test_case3()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" started-at="2023-05-12T11:21:58 IST" name="test_case3" finished-at="2023-05-12T11:21:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case3 -->
+        <test-method signature="test_case4()[pri:0, instance:IncludeExcludeGroups.IncludeExcludeDemo@5136d012]" started-at="2023-05-12T11:21:58 IST" name="test_case4" finished-at="2023-05-12T11:21:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case4 -->
+      </class> <!-- IncludeExcludeGroups.IncludeExcludeDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
